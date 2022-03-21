@@ -53,7 +53,7 @@ li{
 .corner{
 
   background-image: linear-gradient(to bottom right, rgb(0, 8, 255), rgb(0, 208, 255));
-  padding:30px 30px 30px 120px;
+  padding:30px 30px 30px 230px;
 }
 
 .plan{
@@ -70,6 +70,14 @@ li{
   font-weight:bold;
   
   border-bottom: 2px solid;
+}
+.cardcorner{
+  border-radius: 15px;
+  background-color: white;
+}
+
+.cardcorner:hover{
+  transform: scale(1.1);
 }
 sub{
   font-size: 20px;

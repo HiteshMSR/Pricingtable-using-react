@@ -23,9 +23,9 @@ import { Subscript } from '@mui/icons-material';
 export default function App() {
   return (
     <div class="corner">
-<Grid container spacing={5}>
+<Grid container spacing={10}>
     <Grid item>
-<Card sx={{ minWidth: 330}}>
+<Card sx={{ minWidth: 330}} class="cardcorner"> 
   <cardheader>
   <Typography class="plan">
    FREE
@@ -49,13 +49,13 @@ export default function App() {
   </Typography>
 </CardContent>
 <CardActions>
-<Button variant="contained" style={{margin:'0px 0px 0px 100px'}}>Button</Button>
+<Button variant="contained" style={{margin:'0px 0px 0px 70px'}}>Button</Button>
 </CardActions>
 </Card>
 </Grid>
 
  <Grid item>
-<Card sx={{ minWidth: 330}}>
+<Card sx={{ minWidth: 330}} class="cardcorner">
   <cardheader>
   <Typography class="plan">
    PLUS
@@ -79,13 +79,13 @@ export default function App() {
   </Typography>
 </CardContent>
 <CardActions>
-<Button variant="contained" style={{margin:'0px 0px 0px 100px'}}>Button</Button>
+<Button variant="contained" style={{margin:'0px 0px 0px 70px'}}>Button</Button>
 </CardActions>
 </Card>
 </Grid>
 
 <Grid item>
-<Card sx={{ minWidth: 330}}>
+<Card sx={{ minWidth: 330}} class="cardcorner">
   <cardheader>
   <Typography class="plan">
    PRO
@@ -108,7 +108,7 @@ export default function App() {
 </CardContent> 
 <CardActions>
   <div class="Button">
-<Button variant="contained" style={{margin:'0px 0px 0px 100px'}}>Button</Button>
+<Button variant="contained" style={{margin:'0px 0px 0px 70px'}}>Button</Button>
 </div>
 </CardActions>
 </Card>
